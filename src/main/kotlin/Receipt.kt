@@ -8,14 +8,14 @@ fun main(){
     val tShirtPrice = 1200
     val tShirtCount = 1
     val tShirtTotal = tShirtPrice * tShirtCount
-    println("Футболка x$tShirtCount — $tShirtTotal ")
+    println("Футболка x$tShirtCount — $tShirtTotal руб. ")
 
     val stickPackPrice = 150
     val stickPackCount = 3
     val stickPackTotal = stickPackPrice * stickPackCount
-    println("Стикерпак x$stickPackCount — $stickPackTotal ")
+    println("Стикерпак x$stickPackCount — $stickPackTotal руб. ")
 
-    val totalCheckPrice= mugTotal+tShirtTotal+stickPackTotal
-    println(totalCheckPrice)
+    val totalCheckPrice = mugTotal + tShirtTotal + stickPackTotal
+    println("Итого: $totalCheckPrice руб. ")
 
 }
