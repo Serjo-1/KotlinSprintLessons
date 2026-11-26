@@ -12,7 +12,7 @@ println("Получено наличных : $paid руб.")
     println("Купюр по 500 : $count500 шт.")
 
     val count100 = rest500 / 100
-    println("Купюр по  $count100 шт.")
+    println("Купюр по 100 $count100 шт.")
     val rest100 = rest500 % 100
 
     val count50 = rest100 / 50
@@ -21,7 +21,7 @@ println("Получено наличных : $paid руб.")
 
     val count10= rest50 / 10
     val rest10 = rest50 % 10
-    println("КУпюр по 10 : $count10 шт.")
+    println("Купюр по 10 : $count10 шт.")
 
     val totalBanknote= count500 + count100 + count50 + count10
     println("Купюр всего : $totalBanknote")
